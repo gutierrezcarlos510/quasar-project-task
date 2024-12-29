@@ -1,6 +1,6 @@
 # Quasar App (quasar-project)
 
-Practica Vue, para Diplomado de Desarrollo de Aplicaciones Web con Vue
+Proyecto Vue, para Diplomado de Desarrollo de Aplicaciones Web con Vue
 
 ## Integrante
 

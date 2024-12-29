@@ -1,0 +1,136 @@
+{
+  "ventas": [
+    {
+      "id": "1",
+      "fecha": "2022-01-01",
+      "total": 100,
+      "tipo": "EFECTIVO"
+    },
+    {
+      "id": "2",
+      "fecha": "2022-01-02",
+      "total": 200,
+      "tipo": "QR"
+    }
+  ],
+  "detalles": [
+    {
+      "id": "1",
+      "ventaId": 1,
+      "productoId": 1,
+      "cantidad": 2
+    },
+    {
+      "id": "2",
+      "ventaId": 1,
+      "productoId": 2,
+      "cantidad": 1
+    }
+  ],
+  "productos": [
+    {
+      "id": "2",
+      "nombre": "Tv SamSung",
+      "precio": 5000,
+      "cantidad": 15,
+      "categoriaId": {
+        "id": "1",
+        "nombre": "Radios electronicas"
+      }
+    },
+    {
+      "id": "3",
+      "nombre": "Tv LG 500",
+      "precio": 3500,
+      "cantidad": 15,
+      "categoriaId": {
+        "id": "1",
+        "nombre": "Radios electronicas"
+      }
+    },
+    {
+      "id": "4",
+      "nombre": "Tv RTC con Android",
+      "precio": 3600,
+      "cantidad": 12,
+      "categoriaId": {
+        "id": "1",
+        "nombre": "Radios electronicas"
+      }
+    },
+    {
+      "id": "5",
+      "nombre": "Parlante Sony 1500 Wats",
+      "precio": 6300,
+      "cantidad": 36,
+      "categoriaId": {
+        "id": "1",
+        "nombre": "Radios electronicas"
+      }
+    },
+    {
+      "id": "6",
+      "nombre": "dsdsd",
+      "precio": 3333,
+      "cantidad": 33,
+      "categoriaId": {
+        "id": "1",
+        "nombre": "Radios electronicas"
+      }
+    },
+    {
+      "id": "7",
+      "nombre": "xxxx111",
+      "precio": 22,
+      "cantidad": 33,
+      "categoriaId": {
+        "id": "1",
+        "nombre": "Radios electronicas"
+      }
+    },
+    {
+      "id": "8",
+      "nombre": "Radio Samsung 110",
+      "precio": 500,
+      "cantidad": 10,
+      "categoriaId": {
+        "id": "1",
+        "nombre": "Radios electronicas"
+      }
+    },
+    {
+      "id": "9",
+      "nombre": "zxcvx",
+      "precio": 232,
+      "cantidad": 32,
+      "categoriaId": {
+        "id": "2",
+        "nombre": "Televisores"
+      }
+    },
+    {
+      "id": "10",
+      "nombre": "dssds",
+      "precio": 11,
+      "cantidad": 222,
+      "categoriaId": {
+        "id": "3",
+        "nombre": "Parlantes"
+      }
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "Radios electronicas"
+    },
+    {
+      "id": "2",
+      "nombre": "Televisores"
+    },
+    {
+      "id": "3",
+      "nombre": "Parlantes"
+    }
+  ]
+}
